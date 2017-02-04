@@ -1,0 +1,23 @@
+appname = img_convert
+httpport = 9080
+runmode = dev
+
+ServerName = IMG Server
+FlashName = session_flash
+FlashSeperator = SESSIONFLASH
+ServerTimeOut = 3
+
+TemplateLeft = {%
+TemplateRight = %}
+
+CopyRequestBody = false
+
+sessionon = false
+SessionName = Limao
+
+[dev]
+filepath = e:/test_pic/
+[prod]
+filepath = /data/www/
+[test]
+filepath = /data/www/

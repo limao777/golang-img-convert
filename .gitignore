@@ -1,0 +1,10 @@
+﻿.htaccess
+_codesync
+conf/app.conf
+.idea
+.vscode
+.idea/*
+.project
+.settings
+.buildpath
+.settings/*
